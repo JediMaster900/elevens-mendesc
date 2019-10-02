@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CardTester",
+            "request": "launch",
+            "mainClass": "app.CardTester",
+            "projectName": "elevens-mendesc"
+        }
+    ]
+}
