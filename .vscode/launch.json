@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Shuffler",
+            "request": "launch",
+            "mainClass": "app.Shuffler",
+            "projectName": "elevens-mendesc"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DeckTester",
+            "request": "launch",
+            "mainClass": "app.DeckTester",
+            "projectName": "elevens-mendesc"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CardTester",
             "request": "launch",
             "mainClass": "app.CardTester",
