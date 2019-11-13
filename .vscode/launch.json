@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ElevensGUIRunner",
+            "request": "launch",
+            "mainClass": "app.ElevensGUIRunner",
+            "projectName": "elevens-mendesc"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Shuffler",
             "request": "launch",
             "mainClass": "app.Shuffler",

@@ -43,7 +43,7 @@ public class Deck {
             }
         }
         // instantiate the size variable
-        this.size = cards.size();
+        ;
 		shuffle();
 	} // close contructor
 
@@ -84,6 +84,7 @@ public class Deck {
 		//make a counter (k) that
 
 		Card temp;
+		this.size = cards.size();
 		for (int k = cards.size() - 1; k > 0; k--){
 			int pos = (int)(Math.random() * (k + 1));
 			//copy from pos to temp
